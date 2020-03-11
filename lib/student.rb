@@ -3,7 +3,7 @@ class Student < User
     @knowledge = [] 
   end 
   def knowledge 
-    @knowledge 
+    return @knowledge 
   end 
   
 end
